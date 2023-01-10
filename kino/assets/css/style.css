@@ -1,0 +1,716 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="search"] {
+  color: #ffffff;
+  padding: 5px;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+  border: solid 1px #ffffff;
+}
+
+h1,
+h2 {
+  font: normal 170% "centry gothic" arial;
+  margin: 0 0 1px 0;
+  padding: 1px 0 1px 0;
+}
+
+h2 {
+  font-size: 140%;
+}
+
+html {
+  background-color: #191e29;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  margin: 2px 0 22px 8px;
+}
+
+ul li {
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+  font: normal 15px "century gothic", arial, sans-serif;
+}
+
+.header {
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #132d46;
+  height: 177px;
+  font-size: 0.8em;
+  min-width: 900px;
+}
+
+.main,
+.logo,
+.menubar,
+.site_content,
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 880px;
+  padding-bottom: 40px;
+}
+
+.logo h1,
+.logo h2 {
+  font: normal 300% "century gothic", arial, sans-serif;
+  margin: 0 0 0 9px;
+}
+
+.logo_text h1,
+.logo_text h1 a,
+.logo_text h1 a:hover {
+  padding: 22px 0 0 0;
+  letter-spacing: 0.1em;
+}
+
+.logo_text h2 {
+  font-size: 1.5em;
+  padding: 4px 0 0 0;
+  color: #01c38d;
+}
+
+.menubar {
+  width: 950px;
+  height: 96px;
+}
+
+ul.menu {
+  float: left;
+}
+
+ul.menu li {
+  float: left;
+  list-style: none;
+  margin: 1px 2px 0 0;
+  font: normal 1.7em "century gothic", arial, sans-serif;
+}
+
+ul.menu li a {
+  font: normal 100% "trebuchet ms", sans-serif;
+  display: block;
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+}
+
+ul.menu li.selected a {
+  color: #00a777;
+}
+
+ul.menu li a:hover {
+  color: #01c38d;
+  transform: translateY(-2px);
+}
+
+hr {
+  border: solid 1px #01c38d;
+}
+
+.site_content {
+  width: 880px;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  background-color: #191e29;
+}
+
+.sidebar_container {
+  float: right;
+  width: 224px;
+}
+
+.sidebar {
+  float: right;
+  width: 222px;
+  padding: 5%;
+  margin: 0 0 16px 0;
+  border: solid 1px #01c38d;
+  border-radius: 5px;
+  background-color: #191e29;
+}
+
+.sidebar_h2 {
+  color: #01c38d;
+  font: normal 2em "century gothic", arial, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.sidebar_input {
+  background-color: #191e29;
+  border: solid 1px #01c38d;
+  border-radius: 3px;
+  color: #ffffff;
+  width: 11.6em;
+}
+
+.sidebar_input::placeholder {
+  color: #696e79;
+}
+
+.btn {
+  padding: 2px;
+  background-color: #132d46;
+  color: #ffffff;
+  border: solid 3px #132d46;
+  border-radius: 5px;
+  font: normal 1em "century gothic", arial, sans-serif;
+  cursor: pointer;
+  letter-spacing: 0.9px;
+}
+
+.btn:hover {
+  color: #01c38d;
+  transform: translateY(-2px);
+}
+
+.sidebar_input2 {
+  width: 10.6em;
+}
+
+.btn_2 {
+  width: 4em;
+}
+
+.lables_passreq_text {
+  color: #ffffff;
+  margin-top: 5px;
+}
+.reg {
+  font: normal 15px "century gothic", arial, sans-serif;
+  letter-spacing: 0.9px;
+}
+
+.reg:hover {
+  color: #01c38d;
+}
+
+.news {
+  font: normal 15px "century gothic", arial, sans-serif;
+  color: #ffffff;
+}
+
+.news_text {
+  margin-top: 15px;
+}
+
+.reg_news {
+  color: #696e79;
+}
+
+.reg_news:hover {
+  color: #01c38d;
+}
+
+.sidebar_h2_rating {
+  font-size: 22.5px;
+}
+
+.sidebar ul {
+  margin: 0;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  margin: 0 0 0 0;
+}
+
+.rating_sidebar {
+  float: right;
+  color: #ffffff;
+}
+
+.content {
+  text-align: left;
+  width: 600px;
+  padding: 0 0 0 5px;
+  float: left;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.films_block {
+  margin: 0 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.films_item {
+  width: 150px;
+  height: 200px;
+  margin-bottom: 75px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.films_item:hover {
+  transform: scale(1.03);
+  color: #01c38d;
+}
+
+.films_block_a {
+  width: 150px;
+}
+
+.films_name {
+  width: 150px;
+  font: normal 15px "century gothic", arial, sans-serif;
+  letter-spacing: 0.8px;
+  margin-top: -30px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.films_block img {
+  width: 150px;
+  border-radius: 5px;
+  border: solid 3px #132d46;
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+
+.films_block img:hover {
+  width: 150px;
+  border: solid 3px #01c38d;
+}
+
+.sidebar_h1 {
+  color: #01c38d;
+  font: normal 2.5em "century gothic", arial, sans-serif;
+  letter-spacing: 1.3px;
+  margin-bottom: 25px;
+}
+
+.posts_h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #01c38d;
+  font: normal 1.9em "century gothic", arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.posts_text {
+  font: normal 0.9em "century gothic", arial, sans-serif;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.red {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.red_post {
+  color: #696e79;
+}
+
+.red_post:hover {
+  color: #ffffff;
+}
+
+/*Раздел "Footer"*/
+.footer {
+  padding: 2.5rem 0;
+  background-color: #132d46;
+}
+
+.footer_copyright {
+  font-size: 1rem;
+  color: #696e79;
+  padding-right: 1rem;
+  padding-left: 4rem;
+  margin-right: 1rem;
+}
+
+.footer_social {
+  margin-left: 15.1rem;
+  margin-top: -1.5rem;
+}
+
+.footer_link {
+  margin-right: 0.3rem;
+  text-decoration: none;
+}
+
+.footer_nav {
+  margin-left: 34rem;
+  margin-top: -1.5rem;
+}
+
+.footer_nav_link {
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  color: #696e79;
+  text-decoration: none;
+}
+
+.footer_nav_link:hover {
+  color: #01c38d;
+}
+
+.footer_linkicon {
+  width: 25px;
+  height: 25px;
+}
+
+/*Страничка с фильмом*/
+.namesfilm {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font: bold 3em "century gothic", arial, sans-serif;
+}
+.info_film_page {
+  margin-top: 2%;
+  margin-bottom: 4%;
+  font: normal 1em "century gothic", arial, sans-serif;
+}
+
+.info_film_page .label {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.info_film_page .value {
+  font-size: 1.3em;
+  color: #01c38d;
+  margin-right: 3%;
+  letter-spacing: 1px;
+}
+
+.description_film {
+  margin-bottom: 15%;
+  margin-top: 3%;
+}
+
+.description_film img {
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  border: solid 2px #132d46;
+}
+
+.namesfilm2 {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font: bold 1.5em "century gothic", arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.textfilms {
+  color: #ffffff;
+  font: normal 1em "century gothic", arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.reviews {
+  margin-bottom: 4%;
+  border: solid 1.5px #696e79;
+  border-radius: 3px;
+  font: normal 1em "century gothic", arial, sans-serif;
+}
+
+.reviews .review_name {
+  font-size: 1.3em;
+  color: #01c38d;
+  background-color: #132d46;
+  padding: 3px;
+  border-top-left-radius: 3px;
+}
+
+.reviews .review_text {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-right: 3%;
+  letter-spacing: 1px;
+  padding: 2%;
+}
+
+.send {
+  margin-bottom: 4%;
+}
+
+.send input[type="text"],
+textarea {
+  border: solid 1px #696e79;
+  margin-bottom: 2%;
+}
+
+.send textarea {
+  width: 588px;
+  height: 150px;
+  background-color: #132d46;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  font: normal 0.9em "century gothic", arial, sans-serif;
+  resize: none;
+}
+
+.send input[type="text"] {
+  width: 588px;
+  background-color: #132d46;
+  border-radius: 5px;
+  font: normal 0.9em "century gothic", arial, sans-serif;
+}
+
+/*Страничка Контакты*/
+.namescontsct {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font: normal 3em "century gothic", arial, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.namescontsct2 {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font: normal 1.5em "century gothic", arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+/*Страничка Фильмы*/
+.info_film {
+  height: 240px;
+  margin-bottom: 5%;
+  background-color: #132d46;
+  padding: 2%;
+  border: solid 2px #696e79;
+  border-radius: 4px;
+  font: normal 1em "century gothic", arial, sans-serif;
+  color: #ffffff;
+}
+
+.info_film img {
+  width: 30%;
+  float: left;
+  margin-right: 2%;
+  border: solid 1px #01c38d;
+  border-radius: 5px;
+}
+
+.opisfilm {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 2%;
+  float: right;
+  margin-top: -30px;
+  clear: both;
+}
+
+.buttonfilm {
+  color: #01c38d;
+  border: solid 1px #696e79;
+  border-radius: 4px;
+  padding: 5%;
+}
+.buttonfilm:hover {
+  color: #ffffff;
+  background-color: #01c38d;
+  transform: translateY(-2px);
+}
+
+.button:hover {
+  transform: translateY(-4px);
+}
+
+/*Страничка Рейтинг*/
+table {
+  width: 100%;
+  border: solid 1px #696e79;
+  font: normal 1em "century gothic", arial, sans-serif;
+  border-radius: 10px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
+
+th {
+  padding: 2%;
+}
+
+td {
+  padding: 1%;
+}
+
+td img {
+  width: 80px;
+  vertical-align: middle;
+  border: solid 1px #01c38d;
+  border-radius: 4px;
+}
+
+.center {
+  text-align: center;
+}
+
+.a_films {
+  color: #01c38d;
+}
+
+/*Адаптация*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .header {
+    min-width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .menubar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .site_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer_nav {
+    width: 100%;
+  }
+
+  .footer_nav_link {
+    display: none;
+  }
+
+  .sidebar_container {
+    display: none;
+  }
+  ul.menu {
+    float: none;
+  }
+
+  ul.menu li {
+    margin: 0;
+    margin-bottom: 4%;
+    padding: 0;
+    float: none;
+  }
+
+  .content h1,
+  h2 {
+    font: normal 150% "century gothic", arial;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .films_item img {
+    width: 90%;
+  }
+
+  .posts_content p {
+    width: 100%;
+    font-size: 100%;
+    padding: 5%;
+    text-align: justify;
+  }
+
+  .posts {
+    width: 90%;
+  }
+
+  /*films*/
+  .info_film {
+    float: none;
+    height: 150%;
+    margin: 5%;
+    font-size: 95%;
+    text-align: justify;
+  }
+
+  .info_film img {
+    width: 90%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+  }
+
+  .opisfilm {
+    margin-bottom: 15%;
+  }
+
+  .button {
+    float: none;
+    text-align: center;
+    padding: 5%;
+  }
+
+  /*reating*/
+  table {
+    width: 97%;
+    display: block;
+  }
+
+  th {
+    font-size: 75%;
+  }
+
+  td {
+    padding: 0;
+    margin: 0;
+    font-size: 95%;
+  }
+
+  /*show*/
+  iframe {
+    width: 88%;
+    height: 100%;
+  }
+
+  .textfilms {
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 95%;
+  }
+
+  .reviews {
+    width: 96%;
+  }
+
+  .send input[type="text"] {
+    width: 94%;
+    margin-left: -3%;
+  }
+  .send textarea {
+    width: 94%;
+    margin-left: -3%;
+  }
+}
